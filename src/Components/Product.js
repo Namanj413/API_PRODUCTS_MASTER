@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
-import productbg from "./images/lost.jpg";
+
 
 function Product() {
     const[products, setProduct] = useState([]);
