@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -13,10 +13,7 @@ function NavBar() {
     width: "100%",
     height: "90px",
   };
-  const style = {
-    textDecoration: "none",
-    margin: "10px",
-  };
+
 
   const navigate = useNavigate();
   const logout = () => {
